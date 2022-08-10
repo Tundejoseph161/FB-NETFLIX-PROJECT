@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif; 
+    /* overflow-x: hidden; */
+    background-color: rgb(248, 248, 248);
+    
+}
+
+.right-nav{
+    display: flex;
+
+}
+
+.register{
+    margin-left: 2rem;
+    margin-right: 3rem;
+}
+
+.login{
+    margin-left: 45rem;
+}
+
+.navbar {
+    font-weight: 500;
+}
+
+
+
+
+.learn{
+    background-color: black;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 6rem;
+}
+
+.learn:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.right-col{
+    padding: 0px;
+    margin: 0px;
+}
+
+.right img{
+width: 100%;
+}
+
+.left{
+margin-top: 4.5rem;
+color: #000000;
+
+}
+
+.left h1{
+    font-size: 4.5rem;
+}
+
+.heading2{
+    margin-top: -1.5rem;
+    margin-bottom: 1rem;
+}
+
+.left p{
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.logos{
+    display: flex;
+    align-content:  left;
+    margin-top: 1rem;
+}
+
+.logos h3{
+
+    margin-left: 1rem;
+    opacity: 1;
+    color: rgb(100, 100, 100);
+}
+
+@media only screen and (max-width: 500px){
+
+    .left h1{
+        font-size: 2.5rem;
+    }
+
+    .left p{
+        font-weight: 500;
+        font-size: 0.6rem;
+        flex-wrap: wrap;
+    }
+
+}
